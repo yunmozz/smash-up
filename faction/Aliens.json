@@ -1,0 +1,89 @@
+{
+  "faction": "Aliens",
+  "cards": [
+    {
+      "quantity": 1,
+      "name": "Supreme Overlord",
+      "type": "minion",
+      "power": 5,
+      "ability_zh": "你可以将一个随从返回其拥有者手牌。"
+    },
+    {
+      "quantity": 2,
+      "name": "Invader",
+      "type": "minion",
+      "power": 3,
+      "ability_zh": "获得 1 VP。"
+    },
+    {
+      "quantity": 3,
+      "name": "Scout",
+      "type": "minion",
+      "power": 3,
+      "ability_zh": "特殊：此基地结算后，可以将此随从返回你的手牌，而不是让它正常离场。"
+    },
+    {
+      "quantity": 4,
+      "name": "Collector",
+      "type": "minion",
+      "power": 2,
+      "ability_zh": "可以将此基地一个力量不高于 3 的随从返回其拥有者手牌。"
+    },
+    {
+      "quantity": 1,
+      "name": "Abduction",
+      "type": "action",
+      "power": null,
+      "ability_zh": "将一个随从返回其拥有者手牌；然后你可额外打出一个随从。"
+    },
+    {
+      "quantity": 2,
+      "name": "Beam Up",
+      "type": "action",
+      "power": null,
+      "ability_zh": "将一个随从返回其拥有者手牌。"
+    },
+    {
+      "quantity": 1,
+      "name": "Crop Circles",
+      "type": "action",
+      "power": null,
+      "ability_zh": "选择一个基地，将该基地上的所有随从分别返回拥有者手牌。"
+    },
+    {
+      "quantity": 2,
+      "name": "Disintegrator",
+      "type": "action",
+      "power": null,
+      "ability_zh": "将一个力量不高于 3 的随从放到其拥有者牌库底。"
+    },
+    {
+      "quantity": 1,
+      "name": "Invasion",
+      "type": "action",
+      "power": null,
+      "ability_zh": "将一个随从移动至另一个基地。"
+    },
+    {
+      "quantity": 1,
+      "name": "Jammed Signal",
+      "type": "action",
+      "power": null,
+      "ability_zh": "打在基地上；持续取消该基地的能力。"
+    },
+    {
+      "quantity": 1,
+      "name": "Probe",
+      "type": "action",
+      "power": null,
+      "ability_zh": "查看另一名玩家手牌，选择其中一个随从令其弃掉。"
+    },
+    {
+      "quantity": 1,
+      "name": "Terraforming",
+      "type": "action",
+      "power": null,
+      "ability_zh": "从基地牌库找一个基地，与场上一个基地交换；之后可以在新基地额外打出一个随从。"
+    }
+  ]
+}

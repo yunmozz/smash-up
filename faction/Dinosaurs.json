@@ -1,0 +1,89 @@
+{
+  "faction": "Dinosaurs",
+  "cards": [
+    {
+      "quantity": 1,
+      "name": "King Rex",
+      "type": "minion",
+      "power": 7,
+      "ability_zh": "无能力。"
+    },
+    {
+      "quantity": 2,
+      "name": "Laseratops",
+      "type": "minion",
+      "power": 4,
+      "ability_zh": "你可以消灭此基地上一个印刷力量不高于 2 的随从。"
+    },
+    {
+      "quantity": 3,
+      "name": "Armor Stego",
+      "type": "minion",
+      "power": 3,
+      "ability_zh": "天赋：直到你的下个回合开始，此随从在其他玩家的回合中获得 +2 力量。"
+    },
+    {
+      "quantity": 4,
+      "name": "War Raptor",
+      "type": "minion",
+      "power": 2,
+      "ability_zh": "持续：此基地上每有一个 War Raptor,此随从便获得 +1 力量（包括它自己）。"
+    },
+    {
+      "quantity": 2,
+      "name": "Augmentation",
+      "type": "action",
+      "power": null,
+      "ability_zh": "一个随从获得 +4 力量，直到你的回合结束。"
+    },
+    {
+      "quantity": 2,
+      "name": "Howl",
+      "type": "action",
+      "power": null,
+      "ability_zh": "你的每个随从获得 +1 力量，直到你的回合结束。"
+    },
+    {
+      "quantity": 1,
+      "name": "Natural Selection",
+      "type": "action",
+      "power": null,
+      "ability_zh": "选择你在某基地上的一个随从，消灭该基地上力量比它低的一个随从。"
+    },
+    {
+      "quantity": 1,
+      "name": "Rampage",
+      "type": "action",
+      "power": null,
+      "ability_zh": "选择一个基地，该基地的临界值降低等同于你在那里一个随从当前力量的数量，直到回合结束。"
+    },
+    {
+      "quantity": 1,
+      "name": "Survival of the Fittest",
+      "type": "action",
+      "power": null,
+      "ability_zh": "在每个存在更高力量随从的基地上，消灭力量最低的随从；平手时由你选择。"
+    },
+    {
+      "quantity": 1,
+      "name": "Tooth and Claw... and Guns",
+      "type": "action",
+      "power": null,
+      "ability_zh": "打在一个随从上；持续：此随从不受其他玩家卡牌的影响。"
+    },
+    {
+      "quantity": 1,
+      "name": "Upgrade",
+      "type": "action",
+      "power": null,
+      "ability_zh": "打在一个随从上；持续：此随从获得 +2 力量。"
+    },
+    {
+      "quantity": 1,
+      "name": "Wildlife Preserve",
+      "type": "action",
+      "power": null,
+      "ability_zh": "打在一个基地上；持续：你在此基地的随从不受其他玩家行动的影响。"
+    }
+  ]
+}

@@ -19,7 +19,7 @@ SmashUP/
 ├── .git/
 ├── rules.md
 ├── cards.md
-├── plan.md
+├── README.md
 └── script/
     ├── main.py
     ├── card.py

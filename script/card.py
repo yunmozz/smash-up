@@ -1,9 +1,9 @@
 class Card:
     """卡牌的父类，包括名字、派系、力量和能力"""
-    def __init__(self, name, faction, type):
+    def __init__(self, name, faction):
         self.name = name
         self.faction = faction
-        self.type = type
+        self.type = None
         #每个派系的能力不一样，可以一个派系做成一个子类，继承这个父类
 
 class Aliens(Card):

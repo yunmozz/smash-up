@@ -7,4 +7,10 @@ class Player():
         self.hand = hand
         self.faction = faction
         self.deck = deck
-        self.discard_pile = []
+        self.discard_pile = discard_pile
+
+        self.minion_played = False
+        self.action_played = False
+
+        self.minion_extra=0
+        self.action_extra=0

@@ -46,8 +46,9 @@ class Dinosaurs(Card):
         super().__init__(name, "Dinosaurs")
     # 恐龙拥有纯粹的数值，拥有大量增加力量的手段
 
-    def King_Rex():
+    def King_Rex(base):
         """无能力，七点力量"""
+        base.power += 7
         pass
 
     def Laseratops(player, target_minion):

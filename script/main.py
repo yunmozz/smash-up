@@ -23,11 +23,31 @@ bases = [
     Base("Evans City Cemetery", 20, [5, 3, 2]),
     Base("Rhodes Plaza Mall", 24, [0, 0, 0]),
 ]
-factions=["忍者","海盗","僵尸","机器人","恐龙","外星人","吸血鬼","魔法师"]
 
-def provide_base(bases):
+current_bases = []
+
+factions=["忍者","海盗","僵尸","机器人","恐龙","外星人","吸血鬼","魔法师"]  # 当前游戏中的基地列表
+
+def provide_base(num):
     """分发基地"""
-    pass
+    random.shuffle(bases)
+    for _ in range(num+1):
+        current_bases.append(bases.pop(0))
+    print("当前场上的基地是：")
+    for base in current_bases:
+        print(base)
+
+def add_base(num):
+    """当基地被爆破后，添加新的基地"""
+    if len(current_bases) < num+1:
+        for _ in range(num+1-len(current_bases)):
+            current_bases.append(bases.pop(0))
+    else:
+        print("当前基地数量已达上限，无法添加新的基地")
+    print(f"新的基地 {current_bases[-1]} 已经添加到游戏中")
+    print("当前场上的基地是：")
+    for base in current_bases:
+        print(base)
 
 def show_info(player):
     """展示玩家信息"""
@@ -73,7 +93,7 @@ def play_turn(player):
     """玩家进行回合"""
     show_info(player)
     start_turn()
-    play_card(player, player.hand[int(input("请输入要打出的牌的序号: "))])
+    play_card(player, player.hand[int(input("请输入要打出的牌的序号: ")) - 1])
     get_point(base,player)
 
 def game_over():
@@ -94,7 +114,7 @@ def main():
     #打乱数组，作为回合顺序
 
     #分发基地
-    provide_base(bases)
+    provide_base(num)
 
     for player in itertools.cycle(Game_players):
     #循环回合，直到游戏结束。itertools.cycle()会无限循环迭代器

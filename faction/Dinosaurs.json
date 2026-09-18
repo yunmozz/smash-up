@@ -20,14 +20,20 @@
       "name": "Armor Stego",
       "type": "minion",
       "power": 3,
-      "ability_zh": "天赋：直到你的下个回合开始，此随从在其他玩家的回合中获得 +2 力量。"
+      "ability_zh": "天赋：直到你的下个回合开始，此随从在其他玩家的回合中获得 +2 力量。",
+      "abilities": [
+        {"handler": "power_during_other_turns", "params": {"amount": 2}}
+      ]
     },
     {
       "quantity": 4,
       "name": "War Raptor",
       "type": "minion",
       "power": 2,
-      "ability_zh": "持续：此基地上每有一个 War Raptor,此随从便获得 +1 力量（包括它自己）。"
+      "ability_zh": "持续：此基地上每有一个 War Raptor,此随从便获得 +1 力量（包括它自己）。",
+      "abilities": [
+        {"handler": "power_per_same_name_here", "params": {"amount": 1}}
+      ]
     },
     {
       "quantity": 2,
@@ -76,7 +82,11 @@
       "name": "Upgrade",
       "type": "action",
       "power": null,
-      "ability_zh": "打在一个随从上；持续：此随从获得 +2 力量。"
+      "ability_zh": "打在一个随从上；持续：此随从获得 +2 力量。",
+      "attach_to": "minion",
+      "abilities": [
+        {"handler": "attached_power_bonus", "params": {"amount": 2}}
+      ]
     },
     {
       "quantity": 1,

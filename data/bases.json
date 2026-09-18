@@ -1,0 +1,21 @@
+{
+  "bases": [
+    {"id": "aliens.homeworld", "name": "The Homeworld", "breakpoint": 23, "vp": [4, 2, 1], "ability_zh": "在这里打出随从后，可以额外打出一个力量不高于 2 的随从。"},
+    {"id": "aliens.mothership", "name": "The Mothership", "breakpoint": 20, "vp": [4, 2, 1], "ability_zh": "结算后，第一名可以将自己一个力量不高于 3 的随从返回手牌。"},
+    {"id": "dinosaurs.jungle-oasis", "name": "Jungle Oasis", "breakpoint": 12, "vp": [2, 0, 0], "ability_zh": "无特殊能力。"},
+    {"id": "dinosaurs.tar-pits", "name": "Tar Pits", "breakpoint": 16, "vp": [4, 3, 2], "ability_zh": "这里被消灭的随从改为放到拥有者牌库底。"},
+    {"id": "ninjas.ninja-dojo", "name": "Ninja Dojo", "breakpoint": 18, "vp": [2, 3, 2]},
+    {"id": "ninjas.temple-of-goju", "name": "Temple of Goju", "breakpoint": 18, "vp": [2, 3, 2]},
+    {"id": "pirates.grey-opal", "name": "The Grey Opal", "breakpoint": 17, "vp": [3, 1, 1]},
+    {"id": "pirates.tortuga", "name": "Tortuga", "breakpoint": 21, "vp": [4, 3, 2]},
+    {"id": "robots.factory-436-1337", "name": "Factory 436-1337", "breakpoint": 25, "vp": [2, 2, 1]},
+    {"id": "robots.central-brain", "name": "The Central Brain", "breakpoint": 19, "vp": [4, 2, 1]},
+    {"id": "tricksters.cave-of-shinies", "name": "Cave of Shinies", "breakpoint": 23, "vp": [4, 2, 1]},
+    {"id": "tricksters.mushroom-kingdom", "name": "Mushroom Kingdom", "breakpoint": 20, "vp": [5, 3, 2]},
+    {"id": "wizards.school-of-wizardry", "name": "School of Wizardry", "breakpoint": 20, "vp": [3, 2, 1]},
+    {"id": "wizards.great-library", "name": "The Great Library", "breakpoint": 22, "vp": [4, 2, 1]},
+    {"id": "zombies.evans-city-cemetery", "name": "Evans City Cemetery", "breakpoint": 20, "vp": [5, 3, 2]},
+    {"id": "zombies.rhodes-plaza-mall", "name": "Rhodes Plaza Mall", "breakpoint": 24, "vp": [0, 0, 0]}
+  ]
+}
+

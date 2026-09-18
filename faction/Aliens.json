@@ -6,14 +6,20 @@
       "name": "Supreme Overlord",
       "type": "minion",
       "power": 5,
-      "ability_zh": "你可以将一个随从返回其拥有者手牌。"
+      "ability_zh": "你可以将一个随从返回其拥有者手牌。",
+      "abilities": [
+        {"handler": "return_minion_on_play", "params": {}}
+      ]
     },
     {
       "quantity": 2,
       "name": "Invader",
       "type": "minion",
       "power": 3,
-      "ability_zh": "获得 1 VP。"
+      "ability_zh": "获得 1 VP。",
+      "abilities": [
+        {"handler": "gain_vp_on_play", "params": {"amount": 1}}
+      ]
     },
     {
       "quantity": 3,
@@ -27,21 +33,31 @@
       "name": "Collector",
       "type": "minion",
       "power": 2,
-      "ability_zh": "可以将此基地一个力量不高于 3 的随从返回其拥有者手牌。"
+      "ability_zh": "可以将此基地一个力量不高于 3 的随从返回其拥有者手牌。",
+      "abilities": [
+        {"handler": "return_minion_on_play", "params": {"same_base": true, "maximum_power": 3}}
+      ]
     },
     {
       "quantity": 1,
       "name": "Abduction",
       "type": "action",
       "power": null,
-      "ability_zh": "将一个随从返回其拥有者手牌；然后你可额外打出一个随从。"
+      "ability_zh": "将一个随从返回其拥有者手牌；然后你可额外打出一个随从。",
+      "abilities": [
+        {"handler": "return_minion_on_play", "params": {}},
+        {"handler": "grant_extra_play_on_play", "params": {"card_type": "minion"}}
+      ]
     },
     {
       "quantity": 2,
       "name": "Beam Up",
       "type": "action",
       "power": null,
-      "ability_zh": "将一个随从返回其拥有者手牌。"
+      "ability_zh": "将一个随从返回其拥有者手牌。",
+      "abilities": [
+        {"handler": "return_minion_on_play", "params": {}}
+      ]
     },
     {
       "quantity": 1,

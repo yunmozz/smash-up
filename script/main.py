@@ -1,8 +1,15 @@
-from player import Player
-def main():
-    num=int(input("欢迎来到大杀四方,请输入玩家数量: "))
-    players = [input("请输入玩家名字: ") for _ in range(num)]
-    factons = [input("请输入玩家派系: ") for _ in range(num*2)]
+"""兼容旧启动方式：在项目根目录执行 ``python script/main.py``。"""
+
+from pathlib import Path
+import sys
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+SRC = PROJECT_ROOT / "src"
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
+
+from smashup.interfaces.cli import main
+
 
 if __name__ == "__main__":
     main()

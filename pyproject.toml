@@ -1,0 +1,10 @@
+[project]
+name = "smash-up-engine"
+version = "0.1.0"
+description = "A data-driven rules engine for the Smash Up learning project"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
